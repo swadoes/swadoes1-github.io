@@ -1,0 +1,350 @@
+
+/* global */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+.header{
+  height: 87px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.logo img{
+  margin: 25px 125px;
+}
+
+.nav {
+  float: right;
+  position: relative;
+  bottom: 54px;
+  right: 110px;
+}
+
+.nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #949aa4;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 50px;
+}
+
+
+
+/* main */
+
+.banner{
+  background: url(../images/Rectangle1.png);
+  height: 844px;
+  width: 100%;
+}
+
+.banner_clouds_with_iphone{
+  background: url(../images/hand.png) no-repeat;
+  height: 844px;
+  width: 100%;
+  float: right;
+  top: 79px;
+  left: 1200px;
+  position: relative;
+}
+
+.banner_clouds_with_iphone img{
+  position: relative;
+  right: 1670px;
+}
+
+.banner_left{
+  height: 370px;
+  width: 590px;
+  position: relative;
+  float: left;
+  color: #ffffff;
+  font-family: 'Ubuntu', bold;
+  right: 1040px;
+  top: 65px;
+
+}
+
+.banner_left h1{
+  font-size: 52px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.banner_left p{
+  font: 'Ubuntu', italic;
+  font-size: 24px;
+  margin-top: 55px;
+}
+
+.sing{
+  margin-top: 60px;
+  background: url(../images/SignUpForm.png) no-repeat;
+  width: 200px;
+  height: 100px;
+}
+
+.form input{
+  width: 425px;
+  height: 50px;
+  position: relative;
+  bottom: 100px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-left: 35px;
+}
+
+.btn-accept{
+  font:'Ubuntu' bold;
+  font-size: 18px;
+  color: white;
+  background: #77c344;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  bottom: 98px;
+  position: relative;
+  left: 38px;
+}
+
+.form input::placeholder{
+  color: #949aa4;
+  opacity: .7;
+}
+
+.clients{
+  background: url(../images/Clients.png)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 170px;
+}
+
+.why h1{
+  font-size: 40px;
+  color: #4c5767;
+  height: 171px;
+  width: 300px;
+  margin: 90px 792px;
+  text-transform: uppercase;
+  font:'Ubuntu' bold;
+}
+
+.left_side{
+  width: 550px;
+  height: 780px;
+  margin-left: 130px;
+  position: relative;
+  bottom: 100px;
+}
+.left_side img{
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+
+.left_side h2{
+  color: #4c5767;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.left_side p{
+  color: #9499a2;
+  margin-left: 20px;
+  width: 500px;
+}
+
+.circles{
+  background: url(../images/circles.png) no-repeat;
+  margin-top: 60px;
+  margin-left: 32px;
+  width: 340px;
+  height: 80px;
+}
+
+.rigth_side{
+  background: url(../images/macbook.png) no-repeat;
+  float: right;
+  position: relative;
+  width: 800px;
+  height: 680px;
+  bottom: 860px;
+  left: 45px;
+}
+
+.why_different{
+  background: url(..//images//WhyDiffrent.png) no-repeat;
+  background-size: cover;
+  width: 1900px;
+  height: 1000px;
+  position: relative;
+}
+
+.why_different h1{
+  font-size: 40px;
+  color: #4c5767;
+  position: relative;
+  left: 700px;
+  top: 100px;
+  text-transform: uppercase;
+  font:'Ubuntu' bold;
+}
+
+.why_different h2{
+  color: #4c5767;
+  font-size: 22px;
+  margin-top: 300px;
+  margin-left: 150px;
+}
+
+.why_different p{
+  color: #9499a2;
+  margin-left: 160px;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.slide{
+  margin-top: 380px;
+  margin-left: 860px;
+}
+
+.slide a{
+  text-decoration: none;
+  color: #9499a2;
+  position: relative;
+  margin-right: 40px;
+  bottom: 80px;
+  font-size: 20px;
+}
+.bl{
+  text-align: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: rgb(22, 226, 216);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  right: 60px;
+  top: 38px;
+  position: relative;
+}
+
+.sing_up{
+  height: 500px;
+  width: 100%;
+}
+.sing_up h1{
+  font-size: 40px;
+  color: #4c5767;
+  position: relative;
+  left: 700px;
+  text-transform: uppercase;
+  font:'Ubuntu' bold;
+  margin-bottom: 20px;
+}
+
+.sing_up h2{
+  font-size: 24px;
+  color: #9ba0a8;
+  position: relative;
+  left: 550px;
+  font:'Ubuntu' italic;
+}
+
+.sing_up input{
+  width: 425px;
+  height: 50px;
+  position: relative;
+  bottom: 100px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #eaeaea;
+  margin-left: 650px;
+  margin-top: 200px;
+  background: url(../images/Shape153.png) no-repeat left;
+  padding-left: 35px;
+}
+
+.form input::placeholder{
+  color: #eaeaea;
+  opacity: .7;
+}
+
+.btn-accept2{
+  font:'Ubuntu' bold;
+  font-size: 18px;
+  color: white;
+  background: #77c344;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  bottom: 99px;
+  position: relative;
+  left: 18px;
+}
+/* 
+footer */
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.logo_b img{
+  margin: 52px 125px;
+}
+
+.nav_b {
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 150px;
+}
+
+.nav_b a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #949aa4;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 50px;
+}
+
+.nav_b img{
+  margin-left: 20px;
+}
+
+
+/* footer */
