@@ -158,7 +158,8 @@ body{
   font-size: 40px;
   color: #4c5767;
   height: 171px;
-  margin: 90px 792px;
+  margin-top: 90px;
+  margin-left: 792px;
   text-transform: uppercase;
   font:'Ubuntu' bold;
 }
@@ -185,7 +186,6 @@ body{
 .left_side p{
   color: #9499a2;
   margin-left: 20px;
-
 }
 
 .circles{
@@ -211,7 +211,7 @@ body{
   width: 1900px;
   height: 1000px;
   position: relative;
-  bottom: 400px;
+  bottom: 290px;
 }
 
 .why_different h1{
@@ -274,7 +274,7 @@ body{
   height: 500px;
   width: 100%;
   position: relative;
-  bottom: 400px;
+  bottom: 300px;
 }
 .sing_up h1{
   font-size: 40px;
