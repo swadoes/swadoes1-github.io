@@ -56,6 +56,7 @@ body{
   background: url(../images/Rectangle1.png);
   height: 844px;
   width: 100%;
+  overflow: hidden;
 }
 
 .banner_clouds_with_iphone{
@@ -63,7 +64,7 @@ body{
   height: 844px;
   width: 100%;
   float: right;
-  top: 73px;
+  top: 94px;
   left: 1200px;
   position: relative;
 }
