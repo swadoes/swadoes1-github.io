@@ -42,6 +42,10 @@ body{
 
 /* main */
 
+.main{
+  height: 3600px;
+}
+
 .banner{
   background: url(../images/Rectangle1.png);
   height: 844px;
@@ -197,6 +201,7 @@ body{
   width: 1900px;
   height: 1000px;
   position: relative;
+  bottom: 700px;
 }
 
 .why_different h1{
@@ -258,6 +263,8 @@ body{
 .sing_up{
   height: 500px;
   width: 100%;
+  position: relative;
+  bottom: 600px;
 }
 .sing_up h1{
   font-size: 40px;
@@ -324,6 +331,7 @@ footer */
   height: 200px;
   width: 100%;
   background: #f2f2f2;
+  position: relative;
 }
 
 .logo_b img{
