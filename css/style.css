@@ -148,12 +148,15 @@ body{
   height: 170px;
 }
 
+.why{
+  width: 100%;
+  height: 1400px;
+}
 
 .why h1{
   font-size: 40px;
   color: #4c5767;
   height: 171px;
-  width: 300px;
   margin: 90px 792px;
   text-transform: uppercase;
   font:'Ubuntu' bold;
@@ -181,12 +184,12 @@ body{
 .left_side p{
   color: #9499a2;
   margin-left: 20px;
-  width: 500px;
+
 }
 
 .circles{
   background: url(../images/circles.png) no-repeat;
-  margin-top: 60px;
+  margin-top: 70px;
   margin-left: 32px;
   width: 340px;
   height: 80px;
@@ -207,7 +210,7 @@ body{
   width: 1900px;
   height: 1000px;
   position: relative;
-  bottom: 700px;
+  bottom: 400px;
 }
 
 .why_different h1{
@@ -236,7 +239,7 @@ body{
 
 .slide{
   margin-top: 380px;
-  margin-left: 860px;
+  margin-left: 890px;
 }
 
 .slide a{
@@ -270,7 +273,7 @@ body{
   height: 500px;
   width: 100%;
   position: relative;
-  bottom: 600px;
+  bottom: 400px;
 }
 .sing_up h1{
   font-size: 40px;
