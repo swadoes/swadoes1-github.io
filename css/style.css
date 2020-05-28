@@ -9,6 +9,12 @@
 body{
   overflow-x: hidden;
 }
+#page{
+  width: 1900px;
+  height: 1350px;
+  margin: 35px auto;
+  background: #fff;
+}
 
 /* header */
 
@@ -238,7 +244,7 @@ body{
   color: #9499a2;
   position: relative;
   margin-right: 40px;
-  bottom: 80px;
+  bottom: 130px;
   font-size: 20px;
 }
 .bl{
