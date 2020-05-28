@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 /* header */
 
 .header{
@@ -134,6 +138,7 @@
   height: 170px;
 }
 
+
 .why h1{
   font-size: 40px;
   color: #4c5767;
@@ -179,12 +184,11 @@
 
 .rigth_side{
   background: url(../images/macbook.png) no-repeat;
-  float: right;
   position: relative;
   width: 800px;
   height: 680px;
   bottom: 860px;
-  left: 45px;
+  left: 1120px;
 }
 
 .why_different{
