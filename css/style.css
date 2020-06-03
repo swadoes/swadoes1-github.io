@@ -119,6 +119,11 @@ body{
   padding-left: 35px;
 }
 
+.fail-validation-message {
+  display: none;
+  color: #4c5767;
+}
+
 .btn-accept{
   font:'Ubuntu' bold;
   font-size: 18px;
